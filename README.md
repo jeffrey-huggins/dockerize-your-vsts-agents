@@ -1,7 +1,7 @@
-# dockerize-your-vsts-agents
+# Dockerize Your VSTS Agents
 
 #### 1. Create a VSTS account with a Personal Access Token
-If you do not already have a VSTS account, head to https://www.visualstudio.com/team-services/ to create a free one. Now navigate to https://\<youraccountname\>.visualstudio.com/_details/security/tokens. Add a new Personal Access Token that has an Authorized Scope of **Agent Pools (read, manage)**. Make sure to save off the token value, you will need it later.
+If you do not already have a VSTS account, head to https://www.visualstudio.com/team-services/ to create a free one. Now navigate to **https://\<youraccountname\>.visualstudio.com/_details/security/tokens**. Add a new Personal Access Token that has an Authorized Scope of **Agent Pools (read, manage)**. Make sure to save off the token value, you will need it later.
 
 
 #### 2. Create an Ubuntu VM

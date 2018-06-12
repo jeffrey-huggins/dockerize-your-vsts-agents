@@ -5,7 +5,7 @@ If you do not already have a VSTS account, head to https://www.visualstudio.com/
 
 
 #### 2. Create an Ubuntu VM
-For the purposes of this exercise, I will be using an Azure Free Subscription to create a VM of the type **Ubuntu Server 16.04 LTS**. Select **Password** as your authentication type. When selecting the size of the VM, I will be selecting the 4GB SSD/1600 IOPS option. Make sure **SSH** is seleted under Public Inbound Ports.
+For the purposes of this exercise, I will be using an Azure Free Subscription to create a VM of the type **Ubuntu Server 16.04 LTS**. Select **Password** as your authentication type. When selecting the size of the VM, I will be selecting the 4GB SSD/1600 IOPS option. Make sure **SSH** is selected under Public Inbound Ports.
 
 
 #### 3. Install Docker on your VM

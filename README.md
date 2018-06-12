@@ -21,7 +21,7 @@ Now restart your VM and you should be good to go.
 
 
 #### 4. Create your VSTS build agent in a Docker container
-The list of VSTS Agent dockerfiles can be found at https://hub.docker.com/r/microsoft/vsts-agent/. The Ubuntu-standard dockerfiles that are listed contain images for handling many built in VSTS build and release tasks, such as .NET Core. I will be using ubuntu-16.04-standard so to create my agent I will run the command: 
+The list of VSTS Agent dockerfiles can be found at https://hub.docker.com/r/microsoft/vsts-agent/. The Ubuntu-standard dockerfiles that are listed contain images for handling many built-in VSTS build and release tasks, such as .NET Core. I will be using ubuntu-16.04-standard so to create my agent I will run the command: 
 
 `docker run -e VSTS_ACCOUNT=<youraccountname> -e VSTS_TOKEN=<your-account-Private-access-token> -e VSTS_WORK=/var/vsts -v /var/run/docker.sock:/var/run/docker.sock -v /var/vsts:/var/vsts -d microsoft/vsts-agent:ubuntu-16.04-standard`
 

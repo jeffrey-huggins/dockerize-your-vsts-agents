@@ -17,7 +17,7 @@ Running the command `docker version` you will see that Docker is installed but t
 
 `sudo usermod -aG docker $USER`
 
-Now restart your VM and you should be good to go.
+Now **restart your VM** and you should be good to go.
 
 
 #### 4. Create your VSTS build agent in a Docker container
